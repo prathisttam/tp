@@ -39,7 +39,7 @@ Check out my contributions to InternSprint at the [TP Dashboard](https://nus-cs2
       * Handles both required parameters(date, start time, end time, type) and optional parameters(interviewer email, notes)
       * Supports the creation of multiple interview rounds for a particular internship
     * **Contributions**:
-      * Created the `interview` class and Designed the core attributes needed for it.
+      * Created the `Interview` class and Designed the core attributes needed for it.
       * Created constructors to accommodate compulsory and mandatory parameters and handled all possible exceptions across the class.
 
 
@@ -49,7 +49,7 @@ Check out my contributions to InternSprint at the [TP Dashboard](https://nus-cs2
     * **Highlights**: 
       * It displays the sorted interviews in an ASCII table for easier for better user readability
     * **Contributions**: 
-       * Created the `sort interviews` class
+       * Created the `sortInterviewCommand` class
        * Created a helper class, `InterviewEntry`, to encapsulate both the internship and its associated interview into a single object. This design aids in the collection and sorting of multiple rounds of interviews by flattening the nested data structure.
 
 
@@ -70,8 +70,8 @@ Note: For all the command classes and interview class, JUNIT tests, assertions a
  * Added documentation for the features `list`, `description` and `sort interviews` commands
 
 **Developer Guide:**
- * Model Component: [(#155)](https://github.com/AY2425S2-CS2113-T11a-3/tp/pull/155)
- * List all internships: [(#155)](https://github.com/AY2425S2-CS2113-T11a-3/tp/pull/155)
+ * Model Component: Added diagrams and documentation to explain our product's model. [(#155)](https://github.com/AY2425S2-CS2113-T11a-3/tp/pull/155)
+ * List all internships: Added diagrams and documentation to explain the list command. [(#155)](https://github.com/AY2425S2-CS2113-T11a-3/tp/pull/155)
 
 **Extracts from Developer Guide**
 
